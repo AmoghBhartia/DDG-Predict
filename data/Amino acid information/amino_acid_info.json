@@ -1,0 +1,25 @@
+{
+  "A": { "titratable": false },
+  "V": { "titratable": false },
+  "L": { "titratable": false },
+  "I": { "titratable": false },
+  "M": { "titratable": false },
+  "F": { "titratable": false },
+  "W": { "titratable": false },
+  "P": { "titratable": false },
+  "G": { "titratable": false },
+
+  "S": { "titratable": false },
+  "T": { "titratable": false },
+  "C": { "titratable": true, "pKa": 8.18 },
+  "Y": { "titratable": true, "pKa": 10.07 },
+  "N": { "titratable": false },
+  "Q": { "titratable": false },
+
+  "K": { "titratable": true, "pKa": 10.53 },
+  "R": { "titratable": true, "pKa": 12.48 },
+  "H": { "titratable": true, "pKa": 6.00 },
+
+  "D": { "titratable": true, "pKa": 3.65 },
+  "E": { "titratable": true, "pKa": 4.25 }
+}

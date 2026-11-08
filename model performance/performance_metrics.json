@@ -1,0 +1,179 @@
+{
+  "runs_evaluated": 30,
+  "epochs_per_run": 5,
+  "headline": {
+    "count": {
+      "mean": 480.3,
+      "standard_deviation": 158.11696892512506,
+      "minimum": 390.0,
+      "maximum": 863.0,
+      "runs": 30
+    },
+    "mae": {
+      "mean": 1.2412400315672707,
+      "standard_deviation": 0.17992126357137353,
+      "minimum": 0.8267687436315403,
+      "maximum": 1.582054067201253,
+      "runs": 30
+    },
+    "rmse": {
+      "mean": 1.8354251978698048,
+      "standard_deviation": 0.32183306468485956,
+      "minimum": 1.0981829951236748,
+      "maximum": 2.357828763958631,
+      "runs": 30
+    },
+    "std": {
+      "mean": 1.7886263060733696,
+      "standard_deviation": 0.30351939185388527,
+      "minimum": 1.0975797680131814,
+      "maximum": 2.259675534187184,
+      "runs": 30
+    },
+    "bias": {
+      "mean": -0.24031227643820025,
+      "standard_deviation": 0.3565964892503638,
+      "minimum": -1.0127740096155209,
+      "maximum": 0.38020834728706615,
+      "runs": 30
+    },
+    "pearson": {
+      "mean": 0.42825610798529956,
+      "standard_deviation": 0.0970133553584179,
+      "minimum": 0.2366447690053205,
+      "maximum": 0.5855392582452409,
+      "runs": 30
+    },
+    "spearman": {
+      "mean": 0.4845000847357336,
+      "standard_deviation": 0.08803622501754599,
+      "minimum": 0.34428494441816315,
+      "maximum": 0.618222451618722,
+      "runs": 30
+    }
+  },
+  "headline_note": "Every reported figure is the mean of the per-run metrics: the metric is computed inside each run's own testing set and those values are averaged, weighting every run equally. A correlation measured inside one fold is not credited for placing that fold's overall level correctly, which makes this the conservative way to report a cross-validation.",
+  "baselines": {
+    "Global mean": {
+      "count": {
+        "mean": 480.3,
+        "standard_deviation": 163.86854487667853,
+        "minimum": 390.0,
+        "maximum": 863.0,
+        "runs": 10
+      },
+      "mae": {
+        "mean": 1.4414261042855396,
+        "standard_deviation": 0.23005855917703877,
+        "minimum": 1.0134941652705884,
+        "maximum": 1.8268276605742013,
+        "runs": 10
+      },
+      "rmse": {
+        "mean": 2.011086600576452,
+        "standard_deviation": 0.3990614944548091,
+        "minimum": 1.2210488342865933,
+        "maximum": 2.6719541280785117,
+        "runs": 10
+      },
+      "std": {
+        "mean": 1.9271748263951536,
+        "standard_deviation": 0.3626284209637871,
+        "minimum": 1.094248657929796,
+        "maximum": 2.3532996861458035,
+        "runs": 10
+      },
+      "bias": {
+        "mean": 0.03999324080569469,
+        "standard_deviation": 0.627023549456787,
+        "minimum": -1.3182114978463393,
+        "maximum": 0.6767605710929284,
+        "runs": 10
+      },
+      "pearson": null,
+      "spearman": null
+    },
+    "Mutation mean": {
+      "count": {
+        "mean": 480.3,
+        "standard_deviation": 163.86854487667853,
+        "minimum": 390.0,
+        "maximum": 863.0,
+        "runs": 10
+      },
+      "mae": {
+        "mean": 1.405152087634244,
+        "standard_deviation": 0.1758579516988061,
+        "minimum": 1.13171595968356,
+        "maximum": 1.7575830819870801,
+        "runs": 10
+      },
+      "rmse": {
+        "mean": 2.020296567598529,
+        "standard_deviation": 0.30520828490597623,
+        "minimum": 1.5710386271505166,
+        "maximum": 2.5894520219729844,
+        "runs": 10
+      },
+      "std": {
+        "mean": 1.9592113462105294,
+        "standard_deviation": 0.2550630048725986,
+        "minimum": 1.5388577084000161,
+        "maximum": 2.3869049809107157,
+        "runs": 10
+      },
+      "bias": {
+        "mean": -0.01979653389878287,
+        "standard_deviation": 0.5456725552771903,
+        "minimum": -1.2469191594400761,
+        "maximum": 0.5746117035778653,
+        "runs": 10
+      },
+      "pearson": {
+        "mean": 0.2480290550664189,
+        "standard_deviation": 0.07592163346710772,
+        "minimum": 0.13888767693665707,
+        "maximum": 0.36122851887250335,
+        "runs": 10
+      },
+      "spearman": {
+        "mean": 0.31084866116948473,
+        "standard_deviation": 0.0684701486876691,
+        "minimum": 0.1731357634802714,
+        "maximum": 0.4069581811950713,
+        "runs": 10
+      }
+    }
+  },
+  "baseline_note": "Fitted on each split's training rows, scored on that split's testing set, and then averaged across the splits exactly as the model is, so the two are comparable. A predictor that is constant within a fold has no correlation there, reported as null.",
+  "spread_between_initial_states_within_a_split": {
+    "count": {
+      "mean_standard_deviation": 0.0,
+      "splits_compared": 10
+    },
+    "mae": {
+      "mean_standard_deviation": 0.03542570358933632,
+      "splits_compared": 10
+    },
+    "rmse": {
+      "mean_standard_deviation": 0.04314935933443722,
+      "splits_compared": 10
+    },
+    "std": {
+      "mean_standard_deviation": 0.040110711950280147,
+      "splits_compared": 10
+    },
+    "bias": {
+      "mean_standard_deviation": 0.06719131195447711,
+      "splits_compared": 10
+    },
+    "pearson": {
+      "mean_standard_deviation": 0.028375938632576373,
+      "splits_compared": 10
+    },
+    "spearman": {
+      "mean_standard_deviation": 0.028452359466574186,
+      "splits_compared": 10
+    }
+  }
+}
